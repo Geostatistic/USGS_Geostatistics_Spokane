@@ -27,6 +27,7 @@ in_workspace = os.path.dirname(Input_ASCII_raster_file)
 out_file = os.path.join(in_workspace, 'output.txt')
 Output_raster = os.path.join(in_workspace, 'Output_raster')
 Output_Raster_Dataset = os.path.join(out_workspace, 'Out_raster')
+Output_point_features = os.path.join(out_workspace, 'Out_points')
 Delete_succeeded = "false"
 header = ['NCOLS ' + n_cols, 'NROWS ' + n_rows, 'XLLCENTER ' + xll_center,
           'YLLCENTER ' + yll_center,
